@@ -1,0 +1,148 @@
+{
+    "texto": "¿El campeón ataca a distancia (Ranged)?",
+    "es_hoja": false,
+    "si": {
+        "texto": "¿Su daño principal es Mágico (AP)?",
+        "es_hoja": false,
+        "si": {
+            "texto": "¿Tiene aspecto humano/humanoide?",
+            "es_hoja": false,
+            "si": {
+                "texto": "¿Usa fuego como elemento principal?",
+                "es_hoja": false,
+                "si": {
+                    "texto": "Annie",
+                    "es_hoja": true
+                },
+                "no": {
+                    "texto": "Ahri",
+                    "es_hoja": true
+                }
+            },
+            "no": {
+                "texto": "¿Es un ave de hielo?",
+                "es_hoja": false,
+                "si": {
+                    "texto": "Anivia",
+                    "es_hoja": true
+                },
+                "no": {
+                    "texto": "AurelionSol",
+                    "es_hoja": true
+                }
+            }
+        },
+        "no": {
+            "texto": "¿Usa un arco como arma principal?",
+            "es_hoja": false,
+            "si": {
+                "texto": "Ashe",
+                "es_hoja": true
+            },
+            "no": {
+                "texto": "¿Usa un rifle de francotirador?",
+                "es_hoja": false,
+                "si": {
+                    "texto": "Caitlyn",
+                    "es_hoja": true
+                },
+                "no": {
+                    "texto": "¿Tu campeón es un yordle prehistorico?",
+                    "es_hoja": false,
+                    "si": {
+                        "texto": "Gnar",
+                        "es_hoja": true
+                    },
+                    "no": {
+                        "texto": "¿Tu campeón es un emo?",
+                        "es_hoja": false,
+                        "si": {
+                            "texto": "Aphelios",
+                            "es_hoja": true
+                        },
+                        "no": {
+                            "texto": "Akshan",
+                            "es_hoja": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "no": {
+        "texto": "¿Es principalmente un Tanque o Soporte resistente?",
+        "es_hoja": false,
+        "si": {
+            "texto": "¿Es un animal o criatura no humana?",
+            "es_hoja": false,
+            "si": {
+                "texto": "¿Es un minotauro?",
+                "es_hoja": false,
+                "si": {
+                    "texto": "Alistar",
+                    "es_hoja": true
+                },
+                "no": {
+                    "texto": "Amumu",
+                    "es_hoja": true
+                }
+            },
+            "no": {
+                "texto": "¿Es un golem de vapor?",
+                "es_hoja": false,
+                "si": {
+                    "texto": "Blitzcrank",
+                    "es_hoja": true
+                },
+                "no": {
+                    "texto": "¿Tu campeón es un alcohólico?",
+                    "es_hoja": false,
+                    "si": {
+                        "texto": "Gragas",
+                        "es_hoja": true
+                    },
+                    "no": {
+                        "texto": "Braum",
+                        "es_hoja": true
+                    }
+                }
+            }
+        },
+        "no": {
+            "texto": "¿Usa maná para sus habilidades?",
+            "es_hoja": false,
+            "si": {
+                "texto": "¿Es de la región de Noxus?",
+                "es_hoja": false,
+                "si": {
+                    "texto": "Darius",
+                    "es_hoja": true
+                },
+                "no": {
+                    "texto": "Diana",
+                    "es_hoja": true
+                }
+            },
+            "no": {
+                "texto": "¿Es de la región de Demacia?",
+                "es_hoja": false,
+                "si": {
+                    "texto": "Garen",
+                    "es_hoja": true
+                },
+                "no": {
+                    "texto": "¿Usa energía en lugar de maná?",
+                    "es_hoja": false,
+                    "si": {
+                        "texto": "Akali",
+                        "es_hoja": true
+                    },
+                    "no": {
+                        "texto": "Aatrox",
+                        "es_hoja": true
+                    }
+                }
+            }
+        }
+    }
+}
